@@ -1,0 +1,45 @@
+ rm test.py 
+git startus
+git restore test.py
+ git status
+     clear
+    sudo dnf update -y
+   36  sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+   37  sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+   38  sudo dnf install code -y
+   39  clear
+   40  git --version
+   41  clear
+   42  code
+   43  init 0
+   44  git status
+   45  git init 
+   46  clear
+   47  git status
+   48  git add test.py 
+   49  git status 
+   50  git rm test.py 
+   51  git rm --cached test.py 
+   52  git status
+   53  git add test.py
+   54  fit status
+   55  git status
+   56  git rm --cached test.py
+   57  git status
+   58  git add test.py 
+   59  git status
+   60  git commit -m "tracked"
+   61  clear
+   62  git status 
+   63  git rm test.py 
+   64  git restore test.py
+   65  git status
+   66  git restore test.py
+   67  git restore --staged test.py
+   68  git status
+   69  git restore test.py 
+   70  git status
+   71  ls
+   72  git init 
+   73  git status
+   74  history
